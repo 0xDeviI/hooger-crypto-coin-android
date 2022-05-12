@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.splash.ThirdFragment"
+    android:background="@color/background_darker"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:src="@drawable/locker_dynamic_premium"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="هوگر ولت، استوار بر امنیت"
+        android:textColor="@color/white"
+        android:fontFamily="@font/kaghaz_alef"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="تا زمانی که امنیت کاربران اصلی ترین دغدغه ماست، هیچگونه نگرانی ای برای حفط امنیت نداشته باشید!"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="@color/text_description"
+        android:fontFamily="@font/iransansmobile"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
